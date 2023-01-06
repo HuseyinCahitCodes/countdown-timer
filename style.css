@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Dancing Script", sans-serif;
+}
+
+.hidden {
+    display: none !important;
+}
+
+h1 {
+    font-size: 5rem ;
+    margin-top: -20rem;
+}
+
+.countdownContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.cdSpan {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
